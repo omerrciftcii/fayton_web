@@ -48,9 +48,9 @@ import Header from './Header.vue';
                     <div>Asanlaşdırır</div>
                 </div>
                 <p class="font-poppins text-gray-500 text-sm">
-                    Bir şəhərdən digər şəhərə səyahət etmək istəyirsiniz? Artıq
-                    qəşəngiz olmayın! Bu app ilə Azərbaycan daxilində bütün
-                    avtobus marşrutlarını axtara və müqayisə edə bilərsiniz.
+                    Bir şəhərdən digər şəhərə səyahət etmək istəyirsiniz? Bu
+                    tətbiq ilə Azərbaycan daxilində bütün rayonlara gedən
+                    taksiləri axtarip tapa və əlaqə yarada bilərsiz!
                 </p>
                 <div class="flex items-center space-x-3">
                     <button
