@@ -11,9 +11,7 @@ import Header from './Header.vue';
             <div class="space-y-3">
                 <p
                     class="uppercase font-poppins text-sm text-[#DF6951] font-bold"
-                >
-                    Best Destinations around the world
-                </p>
+                ></p>
                 <div
                     class="font-volkhov font-bold text-5xl md:text-6xl lg:text-8xl text-[#181E4B]"
                 >
