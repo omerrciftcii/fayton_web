@@ -67,7 +67,6 @@
                     </linearGradient>
                 </defs>
             </svg>
-
             <div class="space-y-12 px-12 py-28 sm:p-28">
                 <p
                     class="text-[#5E6282] font-semibold text-xl sm:text-3xl text-center"
@@ -109,14 +108,10 @@
                         />
                     </div>
                     <button
-                        class="block bg-[#FF946D] text-white px-6 py-3 rounded-lg"
+                        onclick="window.location.href='mailto:shamkhalbaghishov@gmail.com'"
+                        class="bg-[#FF946D] text-white px-6 py-3 rounded-lg"
                     >
-                        <a
-                            href="mailto:shamkhalbaghishov@gmail.com"
-                            class="inline-block bg-[#FF946D] text-white px-6 py-3 rounded-lg"
-                        >
-                            E-poçt göndər
-                        </a>
+                        E-poçt göndər
                     </button>
                 </div>
             </div>
