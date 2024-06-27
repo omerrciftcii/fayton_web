@@ -5,12 +5,14 @@ export default defineNuxtConfig({
             failOnError: false,
         },
     },
+
     devtools: { enabled: true },
     modules: [
         'nuxt-icon',
         '@nuxt/image',
         '@nuxtjs/tailwindcss',
         'nuxt-headlessui',
+        // 'nuxt-protected-mailto',
     ],
 
     tailwindcss: {
