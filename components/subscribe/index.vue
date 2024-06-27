@@ -1,6 +1,8 @@
 <template>
     <section class="p-6 sm:p-20 sm:-mt-32 font-poppins">
-        <div class="bg-[#DFD7F9] rounded-tl-[10rem] rounded-lg relative">
+        <div
+            class="bg-[#DFD7F9] rounded-tl-[10rem] rounded-lg relative overflow-hidden"
+        >
             <svg
                 class="absolute -top-3 -right-4 z-10"
                 width="70"
@@ -67,9 +69,9 @@
                     </linearGradient>
                 </defs>
             </svg>
-            <div class="space-y-12 px-12 py-28 sm:p-28">
+            <div class="space-y-12 px-6 sm:px-12 py-16 sm:py-28">
                 <p
-                    class="text-[#5E6282] font-semibold text-xl sm:text-3xl text-center"
+                    class="text-[#5E6282] font-semibold text-lg sm:text-3xl text-center"
                 >
                     Bizimlə aşağıdakı e-poçt ünvanından əlaqə saxlaya bilərsiniz
                 </p>
@@ -77,7 +79,7 @@
                     class="flex flex-col sm:flex-row items-center justify-center gap-4 z-20"
                 >
                     <div
-                        class="bg-white px-6 py-3 flex space-x-3 items-center rounded-lg z-40"
+                        class="bg-white px-6 py-3 flex space-x-3 items-center rounded-lg z-40 max-w-xs sm:max-w-none"
                     >
                         <svg
                             width="21"
@@ -107,13 +109,9 @@
                             readonly
                         />
                     </div>
-                    <a
-                        href="mailto:shamkhalbaghishov@gmail.com?subject=Inquiry&body=Your message here"
-                        class="bg-[#FF946D] text-white px-6 py-3 rounded-lg inline-block text-center"
-                        style="text-decoration: none"
-                    >
+                    <button @click="openMailClient" class="email-button">
                         E-poçt göndər
-                    </a>
+                    </button>
                 </div>
             </div>
             <svg
@@ -193,152 +191,28 @@
                     </linearGradient>
                 </defs>
             </svg>
-            <svg
-                class="absolute -bottom-16 sm:bottom-0 -left-16 w-80 sm:w-0 sm:-left-20 z-10"
-                width="480"
-                height="361"
-                viewBox="0 0 480 361"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-            >
-                <g opacity="0.1">
-                    <mask
-                        id="mask0_1_470"
-                        style="mask-type: alpha"
-                        maskUnits="userSpaceOnUse"
-                        x="0"
-                        y="0"
-                        width="480"
-                        height="361"
-                    >
-                        <rect
-                            x="479.5"
-                            y="0.5"
-                            width="360"
-                            height="479"
-                            transform="rotate(90 479.5 0.5)"
-                            fill="url(#paint0_linear_1_470)"
-                            stroke="#6246E5"
-                        />
-                    </mask>
-                    <g mask="url(#mask0_1_470)">
-                        <path
-                            d="M236.505 453.92C167.172 453.92 110.966 397.635 110.966 328.202C110.966 258.769 167.172 202.484 236.505 202.484C305.838 202.484 362.045 258.769 362.045 328.202C362.045 397.635 305.838 453.92 236.505 453.92Z"
-                            stroke="#6246E5"
-                        />
-                        <path
-                            d="M249.773 458.902C172.197 458.902 109.307 395.925 109.307 318.237C109.307 240.55 172.197 177.573 249.773 177.573C327.349 177.573 390.238 240.55 390.238 318.237C390.238 395.925 327.349 458.902 249.773 458.902Z"
-                            stroke="#6246E5"
-                        />
-                        <path
-                            d="M260.552 463.885C175.649 463.885 106.82 394.959 106.82 309.934C106.82 224.909 175.649 155.983 260.552 155.983C345.456 155.983 414.285 224.909 414.285 309.934C414.285 394.959 345.456 463.885 260.552 463.885Z"
-                            stroke="#6246E5"
-                        />
-                        <path
-                            d="M276.308 467.206C184.993 467.206 110.966 393.076 110.966 301.63C110.966 210.184 184.993 136.054 276.308 136.054C367.622 136.054 441.649 210.184 441.649 301.63C441.649 393.076 367.622 467.206 276.308 467.206Z"
-                            stroke="#6246E5"
-                        />
-                        <path
-                            d="M291.648 470.528C194.15 470.528 115.112 391.378 115.112 293.742C115.112 196.105 194.15 116.955 291.648 116.955C389.145 116.955 468.183 196.105 468.183 293.742C468.183 391.379 389.145 470.528 291.648 470.528Z"
-                            stroke="#6246E5"
-                        />
-                        <path
-                            d="M309.061 474.68C201.947 474.68 115.112 387.723 115.112 280.456C115.112 173.188 201.947 86.2314 309.061 86.2314C416.175 86.2314 503.01 173.188 503.01 280.456C503.01 387.723 416.175 474.68 309.061 474.68Z"
-                            stroke="#6246E5"
-                        />
-                    </g>
-                </g>
-                <defs>
-                    <linearGradient
-                        id="paint0_linear_1_470"
-                        x1="736.035"
-                        y1="13.4669"
-                        x2="487.704"
-                        y2="484.066"
-                        gradientUnits="userSpaceOnUse"
-                    >
-                        <stop stop-color="#747DEF" />
-                        <stop offset="1" stop-color="#5E3BE1" />
-                    </linearGradient>
-                </defs>
-            </svg>
-            <svg
-                class="absolute -bottom-16 -right-3 sm:-right-12 -z-10"
-                width="153"
-                height="166"
-                viewBox="0 0 153 166"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-            >
-                <path
-                    d="M7.19727 152.61H11.5586V154.49H7.19727V159.432H5.19922V154.49H0.837891V152.61H5.19922V148.045H7.19727V152.61Z"
-                    fill="#E5E5E5"
-                />
-                <path
-                    d="M42.1973 117.61H46.5586V119.49H42.1973V124.432H40.1992V119.49H35.8379V117.61H40.1992V113.045H42.1973V117.61Z"
-                    fill="#E5E5E5"
-                />
-                <path
-                    d="M77.1973 12.6104H81.5586V14.4902H77.1973V19.4316H75.1992V14.4902H70.8379V12.6104H75.1992V8.04492H77.1973V12.6104Z"
-                    fill="#E5E5E5"
-                />
-                <path
-                    d="M77.1973 47.6104H81.5586V49.4902H77.1973V54.4316H75.1992V49.4902H70.8379V47.6104H75.1992V43.0449H77.1973V47.6104Z"
-                    fill="#E5E5E5"
-                />
-                <path
-                    d="M77.1973 82.6104H81.5586V84.4902H77.1973V89.4316H75.1992V84.4902H70.8379V82.6104H75.1992V78.0449H77.1973V82.6104Z"
-                    fill="#6246E5"
-                />
-                <path
-                    d="M77.1973 117.61H81.5586V119.49H77.1973V124.432H75.1992V119.49H70.8379V117.61H75.1992V113.045H77.1973V117.61Z"
-                    fill="#E5E5E5"
-                />
-                <path
-                    d="M77.1973 152.61H81.5586V154.49H77.1973V159.432H75.1992V154.49H70.8379V152.61H75.1992V148.045H77.1973V152.61Z"
-                    fill="#E5E5E5"
-                />
-                <path
-                    d="M112.197 12.6104H116.559V14.4902H112.197V19.4316H110.199V14.4902H105.838V12.6104H110.199V8.04492H112.197V12.6104Z"
-                    fill="#E5E5E5"
-                />
-                <path
-                    d="M112.197 47.6104H116.559V49.4902H112.197V54.4316H110.199V49.4902H105.838V47.6104H110.199V43.0449H112.197V47.6104Z"
-                    fill="#E5E5E5"
-                />
-                <path
-                    d="M112.197 82.6104H116.559V84.4902H112.197V89.4316H110.199V84.4902H105.838V82.6104H110.199V78.0449H112.197V82.6104Z"
-                    fill="#E5E5E5"
-                />
-                <path
-                    d="M112.197 117.61H116.559V119.49H112.197V124.432H110.199V119.49H105.838V117.61H110.199V113.045H112.197V117.61Z"
-                    fill="#E5E5E5"
-                />
-                <path
-                    d="M112.197 152.61H116.559V154.49H112.197V159.432H110.199V154.49H105.838V152.61H110.199V148.045H112.197V152.61Z"
-                    fill="#E5E5E5"
-                />
-                <path
-                    d="M147.197 12.6104H151.559V14.4902H147.197V19.4316H145.199V14.4902H140.838V12.6104H145.199V8.04492H147.197V12.6104Z"
-                    fill="#FF7152"
-                />
-                <path
-                    d="M147.197 47.6104H151.559V49.4902H147.197V54.4316H145.199V49.4902H140.838V47.6104H145.199V43.0449H147.197V47.6104Z"
-                    fill="#E5E5E5"
-                />
-                <path
-                    d="M147.197 82.6104H151.559V84.4902H147.197V89.4316H145.199V84.4902H140.838V82.6104H145.199V78.0449H147.197V82.6104Z"
-                    fill="#E5E5E5"
-                />
-                <path
-                    d="M147.197 117.61H151.559V119.49H147.197V124.432H145.199V119.49H140.838V117.61H145.199V113.045H147.197V117.61Z"
-                    fill="#E5E5E5"
-                />
-                <path
-                    d="M147.197 152.61H151.559V154.49H147.197V159.432H145.199V154.49H140.838V152.61H145.199V148.045H147.197V152.61Z"
-                    fill="#E5E5E5"
-                />
-            </svg>
         </div>
     </section>
 </template>
+<script>
+export default {
+    methods: {
+        openMailClient() {
+            window.location.href =
+                'mailto:shamkhalbaghishov@gmail.com?subject=Inquiry&body=Your message here';
+        },
+    },
+};
+</script>
+<style>
+.email-button {
+    background-color: #ff946d;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+}
+</style>
