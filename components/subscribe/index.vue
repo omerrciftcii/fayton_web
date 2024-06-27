@@ -69,17 +69,19 @@
                     </linearGradient>
                 </defs>
             </svg>
+
             <div class="space-y-12 px-6 sm:px-12 py-16 sm:py-28">
                 <p
                     class="text-[#5E6282] font-semibold text-lg sm:text-3xl text-center"
                 >
                     Bizimlə aşağıdakı e-poçt ünvanından əlaqə saxlaya bilərsiniz
                 </p>
+
                 <div
                     class="flex flex-col sm:flex-row items-center justify-center gap-4 z-20"
                 >
                     <div
-                        class="bg-white px-6 py-3 flex space-x-3 items-center rounded-lg z-40 max-w-xs sm:max-w-none"
+                        class="bg-white flex flex-col px-6 py-3 flex space-x-3 items-center rounded-lg z-40 max-w-xs sm:max-w-none"
                     >
                         <svg
                             width="21"
@@ -108,12 +110,16 @@
                             class="bg-transparent border-0 outline-none w-full"
                             readonly
                         />
+                        <a
+                            href="mailto:shamkhalbaghishov@gmail.com"
+                            class="email-button"
+                        >
+                            E-poçt göndər
+                        </a>
                     </div>
-                    <button @click="openMailClient" class="email-button">
-                        E-poçt göndər
-                    </button>
                 </div>
             </div>
+
             <svg
                 class="absolute top-0 right-0 z-10"
                 width="264"
