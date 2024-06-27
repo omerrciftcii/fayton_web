@@ -107,12 +107,13 @@
                             readonly
                         />
                     </div>
-                    <button
-                        onclick="window.location.href='mailto:shamkhalbaghishov@gmail.com?subject=Inquiry&body=Your message here'"
-                        class="bg-[#FF946D] text-white px-6 py-3 rounded-lg"
+                    <a
+                        href="mailto:shamkhalbaghishov@gmail.com?subject=Inquiry&body=Your message here"
+                        class="bg-[#FF946D] text-white px-6 py-3 rounded-lg inline-block text-center"
+                        style="text-decoration: none"
                     >
                         E-poçt göndər
-                    </button>
+                    </a>
                 </div>
             </div>
             <svg
